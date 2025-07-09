@@ -1,55 +1,27 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
+# Arduino build files
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
 *.hex
+*.bin
+*.eep
+*.map
+*.sym
+*.d
+*.o
+*.a
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Arduino backup files
+*~
+*.bak
+*.tmp
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# VS Code or PlatformIO (if used)
+.vscode/
+.pio/
 
-# debug information files
-*.dwo
+# Mac and Windows system files
+.DS_Store
+Thumbs.db
+
+# Arduino IDE generated folders
+build/
+libraries/
