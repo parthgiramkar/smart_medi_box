@@ -24,8 +24,19 @@ An intelligent pill dispensing system designed to ensure timely medication for p
 
 
 ## 📁 Project Structure
-<pre> smart_medi_box/ ├── Arduino_Code/ │ └── smart_medi_box.ino ├── Images/ │  |── block_diagram.png ├── stepper_motor.jpg ├── workflow_diag.png ├── .gitignore └── README.md </pre>
+```
+smart_medi_box/
+├── Arduino_Code/
+│   └── smart_medi_box.ino
+├── Images/
+│   ├── block_diagram.png
+│   ├── stepper_motor.jpg
+│   ├── workflow_diag.png
+├── .gitignore
+└── README.md
 
+
+```
 ---
 
 ## 🚀 How It Works
